@@ -8,7 +8,7 @@ All test should works in demo magento 1.8 with sample data
     # Change settings in conf/defaults.xml or create a new configuration file
 
     git clone https://github.com/macopedia/Menta_MagentoSampleProject.git Menta_MagentoSampleProject
-    cd Menta_SampleProject
+    cd Menta_MagentoSampleProject
     ./composer.phar install
 
     # Creating directory for HTML reports
