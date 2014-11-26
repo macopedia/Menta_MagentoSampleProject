@@ -5,7 +5,11 @@
 
         <!-- Add your selenium server url here -->
         <!-- use: http://username:accesskey@ondemand.saucelabs.com:80/wd/hub for Sauce Labs -->
-        <var name="testing.selenium.seleniumServerUrl" value=""/>
+        <var name="testing.selenium.seleniumServerUrl" value="http://localhost:4444/wd/hub"/>
+
+        <!-- @see https://saucelabs.com/docs/ondemand/browsers//env/python/se2/windows -->
+        <!-- @see WebDriver class constants for browser names -->
+        <var name="testing.selenium.browser" value="firefox" />
 
         <!-- This is used to report test results back to Sauce Labs -->
         <var name="testing.sauce.userId" value=""/>
@@ -63,7 +67,7 @@
     <listeners>
         <listener
                 class="Menta_PHPUnit_Listener_HtmlResultPrinter"
-                file="../vendor/aoepeople/menta/lib/Menta/PHPUnit/Listener/HtmlResultPrinter.php">
+                file="../vendor/aoemedia/menta/lib/Menta/PHPUnit/Listener/HtmlResultPrinter.php">
 
             <arguments>
                 <string>../build/reports/index.html</string>
