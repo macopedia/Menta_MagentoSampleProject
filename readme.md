@@ -1,6 +1,6 @@
 # Menta Magento Sample Project
 
-All tests should work in demo magento 1.8 with sample data
+All tests should work in demo magento 1.8 with sample data (default magento design package)
 ## Getting started
     # Install magento with sample data. Default currency "US$"
     http://www.magentocommerce.com/wiki/1_-_installation_and_configuration/installing_magento_via_shell_ssh
